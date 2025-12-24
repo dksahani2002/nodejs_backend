@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 const mongoURL=process.env.DBURI;
-mongoose.connect(mongoURL);
+// mongoose.connect(mongoURL);
 
 const connectDB= async () => {
   try {
